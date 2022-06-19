@@ -34,7 +34,7 @@ function Login(props) {
                 navigate('/Home')
             }).catch(err => {
                 console.log(err)
-                setMessage('INVALID UID OR PASSWORD')
+                setMessage('INVALID EMAIL OR PASSWORD')
             })
 
         setEmail('')

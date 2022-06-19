@@ -51,7 +51,7 @@ function Registration() {
                             />
                             <label>Password Show/Hide</label>
                         </p>
-                        <input type="submit" class="btn btn-outline-primary" value="REGISTER" />
+                        <input type="submit" className="btn btn-outline-primary" value="REGISTER" />
                         <p className="text-right">
                             Already registered <Link as={Link} to="/">sign in?</Link>
                         </p>
