@@ -1,0 +1,12 @@
+.backColor {
+    width: 50%;
+    margin-top: 100px;
+    height: 360px;
+    background: #2be2d9;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.pass-container {
+    position: relative;
+    width: 295px;
+  }
