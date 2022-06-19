@@ -25,7 +25,8 @@ function Login(props) {
         axios.post('http://localhost:7000/user/signin', userlogininfo)
             .then(res => {
                 console.log(res.data)
-                setMessage(res.data.message)
+                alert(res.data.message)
+                // setMessage(res.data.message)
                 localStorage.setItem("useremail", res.data.userdata.email);
                 localStorage.setItem("username", res.data.userdata.name);
                 localStorage.setItem("uid", res.data.userdata._id);
@@ -56,7 +57,7 @@ function Login(props) {
                             />
                             <label>Password Show/Hide</label>
                         </p>
-                        <button type="submit" value="LOGIN" class="btn btn-outline-primary">LOGIN</button>
+                        <button type="submit" value="LOGIN" className="btn btn-outline-primary">LOGIN</button>
                         &nbsp;
                         <p className="text-right">
                             Create Account <Link as={Link} to="Registration">Register?</Link>
